@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [DemoSuite]" parallel="methods">
+  <test name="DummyAPISanityTest(failed)" parallel="methods">
+    <classes>
+      <class name="tests.TestClass">
+        <methods>
+          <include name="TempTest3"/>
+          <include name="TempTest4"/>
+          <include name="createSoftAssert"/>
+        </methods>
+      </class> <!-- tests.TestClass -->
+      <class name="tests.TestClass2">
+        <methods>
+          <include name="TempTest8"/>
+          <include name="createSoftAssert"/>
+          <include name="TempTest9"/>
+        </methods>
+      </class> <!-- tests.TestClass2 -->
+    </classes>
+  </test> <!-- DummyAPISanityTest(failed) -->
+</suite> <!-- Failed suite [DemoSuite] -->

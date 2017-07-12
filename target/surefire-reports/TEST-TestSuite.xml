@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.924" tests="10" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="idea.version" value="2017.1.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\bin"/>
+    <property name="java.vm.version" value="25.111-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\kohlih\IdeaProjects\TestNGSoftAssert"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\kohlih\IdeaProjects\TestNGSoftAssert"/>
+    <property name="java.runtime.version" value="1.8.0_111-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\kohlih\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.1.1\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python27\;C:\Python27\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Java\jdk1.8.0_111\bin;D:\LeanFT Training\Resources\apache-maven-3.3.9\bin;C:\Program Files\nodejs\;C:\Users\kohlih\Desktop\apache-jmeter-2.13\lib;C:\Users\kohlih\Desktop\apache-jmeter-2.13\lib\ext;C:\Users\kohlih\Desktop\apache-jmeter-2.13\bin;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Microsoft Team Foundation Server 2013 Power Tools\;C:\Program Files (x86)\Microsoft Team Foundation Server 2013 Power Tools\Best Practices Analyzer\;C:\Program Files\Git\cmd;C:\Users\kohlih\AppData\Roaming\npm\node_modules\nightwatch\node_modules;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\PuTTY\;C:\Users\kohlih\Documents\GitHub\cs-flipfont-api\node_modules\mocha\bin\mocha;C:\Users\kohlih\.dnx\bin;C:\Users\kohlih\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\kohlih\AppData\Roaming\Composer\vendor\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\kohlih"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="kohlih"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.1.1\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.1.1\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_111\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2017.1.1 test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_111"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_111\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.1.1\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="TempTest4" classname="tests.TestClass1" time="0.002">
+    <failure message="The following asserts failed:&#10;	expected [4] but found [5]" type="java.lang.AssertionError">java.lang.AssertionError: 
+The following asserts failed:
+	expected [4] but found [5]
+	at tests.TestClass1.TempTest4(TestClass1.java:41)
+</failure>
+    <system-out><![CDATA[...
+... TestNG 6.10 by Cédric Beust (cedric@beust.com)
+...
+
+]]></system-out>
+  </testcase>
+  <testcase name="TempTest10" classname="tests.TestClass2" time="0"/>
+  <testcase name="TempTest6" classname="tests.TestClass2" time="0"/>
+  <testcase name="TempTest7" classname="tests.TestClass2" time="0"/>
+  <testcase name="TempTest8" classname="tests.TestClass2" time="0">
+    <failure message="The following asserts failed:&#10;	expected [8] but found [9]" type="java.lang.AssertionError">java.lang.AssertionError: 
+The following asserts failed:
+	expected [8] but found [9]
+	at tests.TestClass2.TempTest8(TestClass2.java:34)
+</failure>
+  </testcase>
+  <testcase name="TempTest9" classname="tests.TestClass2" time="0">
+    <failure message="The following asserts failed:&#10;	expected [9] but found [10]" type="java.lang.AssertionError">java.lang.AssertionError: 
+The following asserts failed:
+	expected [9] but found [10]
+	at tests.TestClass2.TempTest9(TestClass2.java:42)
+</failure>
+  </testcase>
+  <testcase name="TempTest2" classname="tests.TestClass1" time="0"/>
+  <testcase name="TempTest5" classname="tests.TestClass1" time="0"/>
+  <testcase name="TempTest1" classname="tests.TestClass1" time="0"/>
+  <testcase name="TempTest3" classname="tests.TestClass1" time="0.002">
+    <failure message="The following asserts failed:&#10;	expected [3] but found [4]" type="java.lang.AssertionError">java.lang.AssertionError: 
+The following asserts failed:
+	expected [3] but found [4]
+	at tests.TestClass1.TempTest3(TestClass1.java:33)
+</failure>
+  </testcase>
+</testsuite>

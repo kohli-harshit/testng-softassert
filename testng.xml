@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DummySuite" verbose="10" parallel="methods" thread-count="5">
+
+  <test name="DummyTest">
+
+  	<classes>
+  		<class name="tests.TestClass1"></class>
+		<class name="tests.TestClass2"></class>
+  	</classes>
+  </test>
+</suite>

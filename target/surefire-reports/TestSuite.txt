@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.924 sec <<< FAILURE! - in TestSuite
+TempTest4(tests.TestClass1)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [4] but found [5]
+	at tests.TestClass1.TempTest4(TestClass1.java:41)
+
+TempTest8(tests.TestClass2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [8] but found [9]
+	at tests.TestClass2.TempTest8(TestClass2.java:34)
+
+TempTest9(tests.TestClass2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [9] but found [10]
+	at tests.TestClass2.TempTest9(TestClass2.java:42)
+
+TempTest3(tests.TestClass1)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [3] but found [4]
+	at tests.TestClass1.TempTest3(TestClass1.java:33)
+
